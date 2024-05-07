@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bright-pink-crayola: #ef476fff;
+    --sunglow: #ffd166ff;
+    --emerald: #06d6a0ff;
+    --blue-ncs: #118ab2ff;
+    --midnight-green: #073b4cff;
+}
