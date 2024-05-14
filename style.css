@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
@@ -6,9 +6,24 @@
 }
 
 :root{
-    --bright-pink-crayola: #ef476fff;
-    --sunglow: #ffd166ff;
-    --emerald: #06d6a0ff;
-    --blue-ncs: #118ab2ff;
-    --midnight-green: #073b4cff;
+    --rosinha-barbie: #ef476fff;
+    --amalero: #ffd166ff;
+    --verde-green: #06d6a0ff;
+    --azul-inverno: #118ab2ff;
+    --azul-da-noite: #073b4cff;
+    --font-titulo:"Oswald"
+    --fonte-texto:"Roboto Condensed"
 }
+
+body{
+    background-color: var(--azul-inverno);
+    color:var(--azul-da-noite);
+    font-family: var(--font-titulo);
+}
+
+.titulo-principal{
+    font-family: var(--font-titulo);
+
+}
+
+
